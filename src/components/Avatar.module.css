@@ -1,0 +1,14 @@
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+}
+
+.avatarWithBorder {
+  /* esse calculo eh hegth + a soma dos border + outlinee 2 bordas de 4px e 2 utline de 2px */
+  width: calc(3rem + 12px);
+  height: calc(3rem + 12px);
+  border-radius: 8px;
+  border: 4px solid var(--gray-800);
+  outline: 2px solid var(--green-500);
+}
